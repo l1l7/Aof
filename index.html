@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ace of Fades | Desert Barber Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+  <nav class="navbar">
+    <div class="logo">Ace Of Fades</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Book</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h1>Desert Barber Shop. Classy. Clean. Professional.</h1>
+    <p>Twentynine Palms’ top-rated barbershop for fades, shaves & precision cuts.</p>
+    <div class="status-box">
+      <span id="clock"></span>
+      <span id="openStatus" class="badge"></span>
+    </div>
+    <a href="#contact" class="btn">Book Your Cut</a>
+  </div>
+</header>
+
+<section id="about" class="section dark">
+  <h2>About Ace Of Fades</h2>
+  <p>
+    Ace of Fades is a popular barbershop in Twentynine Palms known for its skilled barbers,
+    welcoming atmosphere, and amenities like free WiFi, a pool table, and complimentary drinks.
+    They specialize in fades and straight razor shaves for men, women, and kids.
+  </p>
+</section>
+
+<section id="services" class="section">
+  <h2>Services</h2>
+  <div class="grid">
+    <div>Fade Cuts</div>
+    <div>Beard Trims</div>
+    <div>Straight Razor Shaves</div>
+    <div>Kids & Women Cuts</div>
+    <div>Military Haircuts</div>
+    <div>Hot Towel Shaves</div>
+    <div>Waxing</div>
+    <div>Hair Coloring</div>
+  </div>
+</section>
+
+<section id="gallery" class="section dark">
+  <h2>Our Work</h2>
+  <div class="gallery-grid">
+    <div class="placeholder">Placeholder Cut</div>
+    <div class="placeholder">Placeholder Cut</div>
+    <div class="placeholder">Placeholder Cut</div>
+    <div class="placeholder">Placeholder Cut</div>
+    <div class="placeholder">Placeholder Cut</div>
+    <div class="placeholder">Placeholder Cut</div>
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <h2>Client Reviews</h2>
+  <div class="reviews">
+    <div class="review">“Kat is definitely gonna be my barber for as long as I’m here. Never had a bad cut.”</div>
+    <div class="review">“Great vibes, beer & pool table while you wait. Amazing shop.”</div>
+    <div class="review">“Everyone here is skilled. Razor finish is 🔥.”</div>
+    <div class="review">“Best haircut experience I’ve ever had.”</div>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <h2>Book Your Appointment</h2>
+  <form id="bookingForm">
+    <input type="text" placeholder="Name" required />
+    <input type="tel" placeholder="Phone Number" required />
+    <textarea placeholder="What service are you booking?" required></textarea>
+    <button type="submit" class="btn">Request Appointment</button>
+    <p id="formMsg"></p>
+  </form>
+
+  <div class="location">
+    <h3>Visit Us</h3>
+    <p>6427 Mesquite Ave, Twentynine Palms, CA 92277</p>
+    <p>📞 760-865-0245</p>
+    <iframe 
+      src="https://www.google.com/maps?q=6427+Mesquite+Ave+Twentynine+Palms+CA&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
